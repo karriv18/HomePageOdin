@@ -1,0 +1,78 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+section.first-sec{
+    background: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 50px 300px
+}
+section.first-sec div p{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    flex: 1 2 auto;
+    display: flex;
+    justify-content: end;
+}
+/* 
+section.second-sec{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+section.second-sec div{
+    background-color: #3882f6;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: row;
+}
+section.second-sec div p{
+    margin: 0;
+
+}
+section.second-sec div p.call{
+    font-weight: bold;
+    font-size: 30px;
+}
+section.second-sec div p{
+    font-size: 20px;
+}
+section.second-sec div.card{
+    padding: 40px;
+    border-radius: 20px;
+}
+section.second-sec div button{
+    background-color: red;
+} */
+
+section.second-sec{
+    background-color: #3882f6;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 90px;
+    margin: 10vh;
+    width: 120vh;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+section.second-sec .card .call{
+    font-size: 23px;
+    font-weight: bold;
+}
+section.second-sec .sign-up button{
+    height: 36px;
+    border: solid white 2px;
+    color: white;
+    background: transparent;
+    border-radius: 10px;
+    width: 140px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}

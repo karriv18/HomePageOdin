@@ -1,0 +1,42 @@
+article{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+
+    margin: 0;
+    padding: 0;
+}
+article .title{
+    padding-top: 70px;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+article .buttons{
+    padding: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 50px;
+}
+article .buttons div{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    color: black;
+    padding-top: 50px ;
+}
+article .buttons button{
+    height: 150px;
+    width: 150px;
+    background: white;
+    border: rgb(5, 116, 235) solid 4px;
+    border-radius: 20px ;
+}
+article .buttons div p{
+    text-align: center;
+    font-size: 18px;
+    width: 190px;
+}
